@@ -34,7 +34,7 @@ def translation(seq):
     return amino_acid_sequence
 
 
-FASTA_file_open = read_file("~/Desktop/BB50242_2022_APC1.2_I_cds.fasta")
+FASTA_file_open = read_file("~/Desktop/Raw Yeast Genome.fasta.fasta")
 RNA_FASTA_file = transcription(FASTA_file_open)
 
 ##########################
